@@ -1,0 +1,13 @@
+exclude_patterns:
+- "src/components/**/__tests__/"
+- "config/"
+- "src/index.js"
+- "src/serviceWorker.js"
+version: "2"
+checks:
+  similar-code:
+    config:
+      threshold: 75
+  identical-code:
+    config:
+      threshold: 75
