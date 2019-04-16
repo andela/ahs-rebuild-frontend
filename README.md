@@ -1,4 +1,9 @@
 ## Andela Home Study
+
+[![CircleCI](https://circleci.com/gh/andela/ahs-rebuild-frontend.svg?style=svg)](https://circleci.com/gh/andela/ahs-rebuild-frontend)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/e1d5e65584427eb3338f/test_coverage)](https://codeclimate.com/github/andela/ahs-rebuild-frontend/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/e1d5e65584427eb3338f/maintainability)](https://codeclimate.com/github/andela/ahs-rebuild-frontend/maintainability)
+<br>
 Andela Home study is a free and open source project aimed at enabling developers at various levels to grow in knowledge and skills. The project provides an environment in which developers get to learn new skills and are able to practice as well through tracks, online quizzes and excercises.
 
 This is the frontend code base for the andela home study project.
@@ -40,9 +45,10 @@ Instead, it will copy all the configuration files and the transitive dependencie
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ### Contributing
+
 To contribute on this project you will need to:
-1. Have good knowledge about [React](#)
-2. Have an idea about graphql, [Apollo](#)
+1. Have good knowledge about [React](https://reactjs.org/tutorial/tutorial.html)
+2. Have an idea about graphql, [Apollo](https://www.apollographql.com/docs/react/essentials/get-started)
 3. Be willing to learn the above technologies
 4. Be willing to adhere to team [conventions](#)
 
@@ -50,4 +56,5 @@ Incase you find bugs/ issues, instead of just reporting, we rather you create br
 If you find reported issues and you can fix it, simply create a branch and raise the pull request.<br>
 
 ## License
-This project is licensed under MIT
+
+This project is open source software licensed as MIT.
