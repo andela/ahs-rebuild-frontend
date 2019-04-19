@@ -3,7 +3,7 @@
 
 .navbar-parent {
     width: 100%;
-    height: 60px;
+    height: 63px;
     background-color: $primary-color;
     display: inline-flex;
     &-logo{
@@ -29,16 +29,16 @@
         height: 100%;
         display: inline-flex;
         font-weight: 500;
-        &-js{
+        &-javascript{
             width: 48%;
             height: 46%;
-            padding: 12% 5px 10% 5px;
+            padding: 12% 5px 9% 5px;
             color: #e5e3e370;
             &-active{
                 color: #ffaf30;
                 width: 48%;
                 height: 46%;
-                padding: 12% 5px 10% 5px;
+                padding: 12% 5px 9% 5px;
                 font-weight: 600;
             }
             &:hover{
@@ -50,14 +50,14 @@
         &-python{
             width: 50%;
             height: 46%;
-            padding: 12% 5px 10% 5px;
+            padding: 12% 5px 9% 5px;
             color: #e5e3e370;
             font-weight: 600;
             &-active{
                 color: #ffaf30;
                 width: 50%;
                 height: 46%;
-                padding: 12% 5px 10% 5px;
+                padding: 12% 5px 9% 5px;
                 font-weight: 600;
             }
             &:hover{
@@ -75,7 +75,7 @@
             width: 100%;
             height: 50%;
             align-self: flex-start;
-            padding: 3% 0px 0% 0px;
+            padding: 4% 0px 0% 0px;
             #slack-logo{
                 height: 50px;
                 width: 50px;

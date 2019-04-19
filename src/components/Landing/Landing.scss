@@ -1,0 +1,19 @@
+.layout-body{
+    display: inline-flex;
+    height: 735px;
+    // background-color: darkred;
+    width: 100%;
+    &-content{
+        padding-left: 50px;
+    }
+}
+.layout-history{
+    height: 30px;
+    background-color: #141f1f;
+    width: 100%;
+}
+.layout-sidebar{
+    height: 100%;
+    width: 20%;
+    background-color: #fff;
+}

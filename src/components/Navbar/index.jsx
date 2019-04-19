@@ -14,6 +14,13 @@ class Navbar extends Component {
     this.setState({ language: event.target.id });
   };
 
+  handleFeedback = event => {
+    const { history } = this.props;
+    event.preventDefault();
+    // history.push('/feedback')
+  }
+
+
   render() {
     const { language } = this.state;
 
@@ -32,7 +39,7 @@ class Navbar extends Component {
               type="button"
               id="javascript"
               onClick={this.handleChangeLanguage}
-              className={`navbar-parent-languages-js${javascriptActive}`}
+              className={`navbar-parent-languages-javascript${javascriptActive}`}
             >
               Javascript
             </div>
@@ -48,12 +55,12 @@ class Navbar extends Component {
           <div className="navbar-parent-links">
             <div className="navbar-parent-links-slack">
               <div className="navbar-parent-links-slack-feedback">
-                <div className="navbar-parent-links-slack-feedback-inner">
+                <div role="button" onClick={this.handleFeedback} className="navbar-parent-links-slack-feedback-inner">
                   <img id="feedback-logo" src={feedbackIcon} alt="feedback" />
                 </div>
               </div>
             </div>
-            <div className="navbar-parent-links-slack">
+            <div role="button" onClick={(e)=>window.open("https://open-andela.slack.com/")} className="navbar-parent-links-slack">
               <img id="slack-logo" src={slackIcon} alt="slack" />
             </div>
           </div>
