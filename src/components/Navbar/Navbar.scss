@@ -1,0 +1,112 @@
+@import '../../index.scss';
+
+
+.navbar-parent {
+    width: 100%;
+    height: 63px;
+    background-color: $primary-color;
+    display: inline-flex;
+    &-logo{
+        width: 20%;
+        height: 60px;
+        display: inline-flex;
+        font-size: 1.5em;
+        #navbar-logo{
+            height: 60px;
+            width: 60px;
+            &-title {
+                align-self: center;
+                color: #fff;
+            }
+        }
+    }
+    &-spacer{
+        width: 60%;
+        height: 100%
+    }
+    &-languages{
+        width: 10%;
+        height: 100%;
+        display: inline-flex;
+        font-weight: 500;
+        &-javascript{
+            width: 48%;
+            height: 46%;
+            padding: 12% 5px 9% 5px;
+            color: #e5e3e370;
+            &-active{
+                color: #ffaf30;
+                width: 48%;
+                height: 46%;
+                padding: 12% 5px 9% 5px;
+                font-weight: 600;
+            }
+            &:hover{
+                cursor: pointer;
+                color: #fff;
+                transition: color 0.3s;
+            }
+        }
+        &-python{
+            width: 50%;
+            height: 46%;
+            padding: 12% 5px 9% 5px;
+            margin: 0px 0px 0px 10px;
+            color: #e5e3e370;
+            font-weight: 600;
+            &-active{
+                color: #ffaf30;
+                width: 50%;
+                height: 46%;
+                padding: 12% 5px 9% 5px;
+                font-weight: 600;
+            }
+            &:hover{
+                cursor: pointer;
+                color: #fff;
+                transition: color 0.3s;
+            }
+        }
+    }
+    &-links{
+        width: 10%;
+        height: 100%;
+        display: inline-flex;
+        &-slack{
+            width: 100%;
+            height: 50%;
+            align-self: flex-start;
+            padding: 4% 0px 0% 0px;
+            #slack-logo{
+                height: 50px;
+                width: 50px;
+                border-radius: 50%;
+                background: #d7d7d721;
+                &:hover{
+                    cursor: pointer;
+                    background-color: #d7d7d747;
+                    transition: background-color 0.2s ease-in;
+                }
+            }
+            &-feedback{
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 50%;
+                    background: #d7d7d721;
+                    float: right;
+                    &-inner{
+                        padding-top: 10px;
+                        #feedback-logo{
+                            height: 32px;
+                            width: 32px;
+                        }
+                    }
+                &:hover{
+                    cursor: pointer;
+                    background-color: #d7d7d747;
+                    transition: background-color 0.2s ease-in;
+                }
+            }
+        }
+    }
+}

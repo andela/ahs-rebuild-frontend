@@ -1,0 +1,52 @@
+.layout-body{
+    // display: inline-flex;
+    height: 735px;
+    width: 100%;
+    &-content{
+        padding: 20px;
+        margin-left: 30px;
+        text-align: left;
+    }
+    &-tracks{
+        display: flex;
+        width: 50%;
+        height: 20%;
+        text-align: left;
+        margin-left: 50px;
+        &-desc{
+            text-align: justify;
+        }
+    }
+    &-intro{
+        margin: 30px 20% 0px 20%;
+        &-content{
+            text-align: justify;
+        }    
+    }
+}
+.layout-history{
+    height: 30px;
+    background-color: #141f1f;
+    width: 100%;
+}
+.layout-sidebar{
+    height: 100%;
+    width: 20%;
+    background-color: #fff;
+}
+.beginner-track{
+    position: absolute;
+    right: 20%;
+    &:hover{
+        cursor: pointer;
+    }
+    
+}
+.advanced-track{
+    position: absolute;
+    right: 10%;
+    &:hover{
+        cursor: pointer;
+    }
+
+}
